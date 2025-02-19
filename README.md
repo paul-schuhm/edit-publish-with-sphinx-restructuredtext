@@ -11,29 +11,52 @@ Un modèle de base de document à éditer et publier (mémoire, rapport, etc.), 
       - [PDF](#pdf)
       - [ebook](#ebook)
       - [HTML](#html)
+    - [Modifier la mise en page](#modifier-la-mise-en-page)
   - [Références utiles](#références-utiles)
 
 
 ## Installation
 
+- Sphinx;
+- Make;
+- LaTeX.
+
 ### LaTeX (Debian)
 
-- Traduction francaise : `texlive-lang-french`
-- `texlive-latex-extra`
+- `texlive-lang-french` (traduction française)
+- `texlive-latex-extra` (extra)
 
 ## Utiliser la démo
 
 ### Éditer
 
 
-> A adaptez à votre convenance !
+> À adaptez à votre convenance !
 
 ### Publier
 
 #### PDF
+
+~~~bash
+make latexpdf
+~~~
+
 #### ebook
+
+~~~bash
+make epub
+~~~
+
 #### HTML
 
+~~~bash
+make html
+~~~
 
+### Modifier la mise en page
 
 ## Références utiles
+
+- [Sphinx](https://www.sphinx-doc.org/en/master/index.html)
+- [reStructuredText](https://docutils.sourceforge.io/rst.html), documentation officielle
+- [LaTeX](https://www.latex-project.org/get/)

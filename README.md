@@ -4,6 +4,7 @@ Un modèle de base de document à éditer et publier (mémoire, rapport, etc.), 
 
 - [Édition et publication d'un document (avec Sphinx+reStructuredText)](#édition-et-publication-dun-document-avec-sphinxrestructuredtext)
   - [Installation](#installation)
+    - [LaTeX (Debian)](#latex-debian)
   - [Utiliser la démo](#utiliser-la-démo)
     - [Éditer](#éditer)
     - [Publier](#publier)
@@ -14,6 +15,11 @@ Un modèle de base de document à éditer et publier (mémoire, rapport, etc.), 
 
 
 ## Installation
+
+### LaTeX (Debian)
+
+- Traduction francaise : `texlive-lang-french`
+- `texlive-latex-extra`
 
 ## Utiliser la démo
 

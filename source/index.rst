@@ -4,16 +4,15 @@ Titre du mémoire
 ================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: Table des matières
 
    remerciements
-   intro/index
-   partie1/index
-   partie2/index
-   partie3/index
-   conclusion/index
+   introduction
+   partie1
+   partie2
+   partie3
+   conclusion
    annexes/index
-
 
 
